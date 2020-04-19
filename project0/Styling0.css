@@ -10,13 +10,13 @@ body {
   text-shadow: -1px 0 #BDBBCE, 0 1px #BDBBCE, 1px 0 #BDBBCE, 0 -1px #BDBBCE; }
 
 #MainHeading {
-  font-size: 250%; }
+  font-size: 2.9282576866764276vw; }
 
 #SubHeading {
-  font-size: 187.5%; }
+  font-size: 2.1961932650073206vw; }
 
 p, .grid {
-  font-size: 125%; }
+  font-size: 1.4641288433382138vw; }
 
 .ShowcaseImageRight, .ShowcaseImageLeft {
   margin: 20px;
@@ -44,20 +44,20 @@ p {
 
 #LinkerPara1 {
   color: #928DC0;
-  font-size: 125%;
+  font-size: 1.4641288433382138vw;
   padding-bottom: 130px; }
 
 #LinkerPara2 {
   color: #928DC0;
-  font-size: 125%;
+  font-size: 1.4641288433382138vw;
   padding-bottom: 15px; }
 
 .LinkerHeading {
   color: black;
-  font-size: 156.25%; }
+  font-size: 1.8301610541727673vw; }
 
 .Linker::before {
-  font-size: 18px;
+  font-size: 1.3177159590043923vw;
   content: ">"; }
 
 #Linker1 {

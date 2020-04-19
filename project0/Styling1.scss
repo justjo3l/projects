@@ -15,14 +15,14 @@ body{
 }
 #MainHeading{
   @extend %StandardHeading;
-  font-size: 250%;
+  font-size: 2.9282576866764276vw;
 }
 #SubHeading{
   @extend %StandardHeading;
-  font-size: 187.5%;
+  font-size: 2.1961932650073206vw;
 }
 %StandardText{
-  font-size: 125%;
+  font-size: 1.4641288433382138vw;
 }
 %StandardImage{
   margin : 20px;
@@ -52,22 +52,22 @@ p{
 #LinkerPara1{
   @extend %LinkerBase;
   color: $MainTextColor;
-  font-size: 125%;
+  font-size: 1.4641288433382138vw;
   padding-bottom: 130px;
 }
 #LinkerPara2{
   @extend %LinkerBase;
   color: $MainTextColor;
-  font-size: 125%;
+  font-size: 1.4641288433382138vw;
   padding-bottom: 15px;
 }
 .LinkerHeading{
   @extend %LinkerBase;
   color: black;
-  font-size: 156.25%;
+  font-size: 1.8301610541727673vw;
 }
 .Linker::before{
-  font-size: 18px;
+  font-size: 1.3177159590043923vw;
   content: ">";
   @extend %LinkerBase;
 }
