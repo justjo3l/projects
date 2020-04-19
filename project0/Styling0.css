@@ -20,11 +20,10 @@ p, .grid {
 
 img {
   height: auto;
-  width: 20%;
   border: 3px solid #BDBBCE; }
 
 p {
-  width: 1000px; }
+  width: 75%; }
 
 #ToBold {
   font-weight: bold;

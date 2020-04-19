@@ -26,11 +26,10 @@ body{
 }
 %StandardImage{
   height: auto;
-  width: 20%;
   border: 3px solid $ShadowColor;
 }
 p{
-  width: 1000px;
+  width: 75%;
   @extend %StandardText;
 }
 #ToBold{
