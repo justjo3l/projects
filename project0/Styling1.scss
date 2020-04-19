@@ -15,19 +15,19 @@ body{
 }
 #MainHeading{
   @extend %StandardHeading;
-  font-size: 40px;
+  font-size: 250%;
 }
 #SubHeading{
   @extend %StandardHeading;
-  font-size: 30px;
+  font-size: 187.5%;
 }
 %StandardText{
-  font-size: 20px;
+  font-size: 125%;
 }
 %StandardImage{
   margin : 20px;
   height: auto;
-  width: 23%;
+  width: 25%;
   border: 3px solid $ShadowColor;
 }
 p{
@@ -49,27 +49,40 @@ p{
   font-family: Lucida, $DefaultBackupFont;
   width: 75%;
 }
-.LinkerPara{
+#LinkerPara1{
   @extend %LinkerBase;
   color: $MainTextColor;
-  font-size: 20px;
+  font-size: 125%;
   padding-bottom: 130px;
+}
+#LinkerPara2{
+  @extend %LinkerBase;
+  color: $MainTextColor;
+  font-size: 125%;
+  padding-bottom: 15px;
 }
 .LinkerHeading{
   @extend %LinkerBase;
   color: black;
-  font-size: 25px;
+  font-size: 156.25%;
 }
 .Linker::before{
   font-size: 18px;
   content: ">";
   @extend %LinkerBase;
 }
-.Linker{
+#Linker1{
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 450px;
   border: 2px $MainTextColor outset;
+}
+#Linker2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 450px;
+  border: 2px $MainTextColor outset;
+  text-align: center;
 }
 .Answer{
   color: $MainTextColor;
@@ -81,7 +94,7 @@ p{
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: auto 305px auto auto auto;
+  grid-template-columns: auto 24% auto auto auto;
   padding: 5px;
   color: $MainTextColor;
   text-align: center;

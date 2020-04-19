@@ -10,18 +10,18 @@ body {
   text-shadow: -1px 0 #BDBBCE, 0 1px #BDBBCE, 1px 0 #BDBBCE, 0 -1px #BDBBCE; }
 
 #MainHeading {
-  font-size: 40px; }
+  font-size: 250%; }
 
 #SubHeading {
-  font-size: 30px; }
+  font-size: 187.5%; }
 
 p, .grid {
-  font-size: 20px; }
+  font-size: 125%; }
 
 .ShowcaseImageRight, .ShowcaseImageLeft {
   margin: 20px;
   height: auto;
-  width: 23%;
+  width: 25%;
   border: 3px solid #BDBBCE; }
 
 p {
@@ -36,30 +36,42 @@ p {
   font-family: Lucida, sans-serif;
   color: black; }
 
-.LinkerPara, .LinkerHeading, .Linker::before {
+#LinkerPara1, #LinkerPara2, .LinkerHeading, .Linker::before {
   margin: 20px;
   font-weight: bold;
   font-family: Lucida, sans-serif;
   width: 75%; }
 
-.LinkerPara {
+#LinkerPara1 {
   color: #928DC0;
-  font-size: 20px;
+  font-size: 125%;
   padding-bottom: 130px; }
+
+#LinkerPara2 {
+  color: #928DC0;
+  font-size: 125%;
+  padding-bottom: 15px; }
 
 .LinkerHeading {
   color: black;
-  font-size: 25px; }
+  font-size: 156.25%; }
 
 .Linker::before {
   font-size: 18px;
   content: ">"; }
 
-.Linker {
+#Linker1 {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 450px;
   border: 2px #928DC0 outset; }
+
+#Linker2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 450px;
+  border: 2px #928DC0 outset;
+  text-align: center; }
 
 .Answer {
   color: #928DC0;
@@ -70,7 +82,7 @@ p {
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: auto 305px auto auto auto;
+  grid-template-columns: auto 24% auto auto auto;
   padding: 5px;
   color: #928DC0;
   text-align: center;
