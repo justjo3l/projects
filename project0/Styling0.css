@@ -18,7 +18,8 @@ body {
 p, .grid {
   font-size: 20px; }
 
-img {
+.ShowcaseImageRight, .ShowcaseImageLeft {
+  margin: 20px;
   height: auto;
   width: 23%;
   border: 3px solid #BDBBCE; }
@@ -35,6 +36,31 @@ p {
   font-family: Lucida, sans-serif;
   color: black; }
 
+.LinkerPara, .LinkerHeading, .Linker::before {
+  margin: 20px;
+  font-weight: bold;
+  font-family: Lucida, sans-serif;
+  width: 75%; }
+
+.LinkerPara {
+  color: #928DC0;
+  font-size: 20px;
+  padding-bottom: 130px; }
+
+.LinkerHeading {
+  color: black;
+  font-size: 25px; }
+
+.Linker::before {
+  font-size: 18px;
+  content: ">"; }
+
+.Linker {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 450px;
+  border: 2px #928DC0 outset; }
+
 .Answer {
   color: #928DC0;
   font-family: Comic, sans-serif; }
@@ -44,11 +70,11 @@ p {
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: auto 345px auto auto auto;
-  margin: 0;
-  padding: 0;
+  grid-template-columns: auto 305px auto auto auto;
+  padding: 5px;
   color: #928DC0;
-  text-align: center; }
+  text-align: center;
+  border: 2px #928DC0 outset; }
 
 a {
   color: #928DC0; }
@@ -57,7 +83,10 @@ a:hover {
   color: #635D98;
   text-decoration: none; }
 
-img {
+.ShowcaseImageRight {
   float: right; }
+
+.ShowcaseImageLeft {
+  float: left; }
 
 /*# sourceMappingURL=Styling0.css.map */

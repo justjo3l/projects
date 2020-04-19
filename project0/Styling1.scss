@@ -25,6 +25,7 @@ body{
   font-size: 20px;
 }
 %StandardImage{
+  margin : 20px;
   height: auto;
   width: 23%;
   border: 3px solid $ShadowColor;
@@ -42,6 +43,34 @@ p{
   font-family: Lucida, $DefaultBackupFont;
   color: black;
 }
+%LinkerBase{
+  margin: 20px;
+  font-weight: bold;
+  font-family: Lucida, $DefaultBackupFont;
+  width: 75%;
+}
+.LinkerPara{
+  @extend %LinkerBase;
+  color: $MainTextColor;
+  font-size: 20px;
+  padding-bottom: 130px;
+}
+.LinkerHeading{
+  @extend %LinkerBase;
+  color: black;
+  font-size: 25px;
+}
+.Linker::before{
+  font-size: 18px;
+  content: ">";
+  @extend %LinkerBase;
+}
+.Linker{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 450px;
+  border: 2px $MainTextColor outset;
+}
 .Answer{
   color: $MainTextColor;
   font-family: Comic, $DefaultBackupFont;
@@ -52,11 +81,11 @@ p{
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: auto 345px auto auto auto;
-  margin: 0;
-  padding: 0;
+  grid-template-columns: auto 305px auto auto auto;
+  padding: 5px;
   color: $MainTextColor;
   text-align: center;
+  border: 2px $MainTextColor outset;
 }
 a{
   color: $MainTextColor;
@@ -65,7 +94,11 @@ a:hover{
     color: $HighlightColor;
     text-decoration: none;
   }
-img{
-  @extend %StandardImage;
+  .ShowcaseImageRight{
+    @extend %StandardImage;
   float: right;
+}
+.ShowcaseImageLeft{
+  @extend %StandardImage;
+  float : left;
 }
