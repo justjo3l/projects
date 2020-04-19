@@ -46,6 +46,7 @@ p{
 %LinkerBase{
   margin: 20px;
   font-weight: bold;
+  font-size: 1.3177159590043923vw;
   font-family: Lucida, $DefaultBackupFont;
   width: 75%;
 }
@@ -72,15 +73,17 @@ p{
   @extend %LinkerBase;
 }
 #Linker1{
+  font-size: 1.3177159590043923vw;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 450px;
+  padding-right: 32.94289897510981vw;
   border: 2px $MainTextColor outset;
 }
 #Linker2{
+  font-size: 1.3177159590043923vw;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 450px;
+  padding-right: 32.94289897510981vw;
   border: 2px $MainTextColor outset;
   text-align: center;
 }
