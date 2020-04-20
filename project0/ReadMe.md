@@ -1,6 +1,2 @@
-This is a collection  of HTML webpages with some CSS and SASS information.
-I just told you nothing you didn't know already.
-Enjoy.
-
-
-:)
+  This website is meant to deliver information about Electronic Dance Music to audiences.
+  It consists of

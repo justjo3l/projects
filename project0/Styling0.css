@@ -160,7 +160,7 @@ p {
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: auto 24% auto auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 5px;
   color: #928DC0;
   text-align: center;
