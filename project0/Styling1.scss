@@ -2,19 +2,10 @@ $ShadowColor: #BDBBCE;
 $HighlightColor: #635D98;
 $MainTextColor: #928DC0;
 $DefaultBackupFont: sans-serif;
-@media(min-width:500px){
 body{
   background-color: #DED9D9;
   overflow: scroll;
   padding: 20px;
-}
-}
-@media(max-width:499px){
-body{
-  background-color: #D0BDBD;
-  overflow: scroll;
-  padding: 20px;
-}
 }
 %StandardHeading{
   font-family: Impact, $DefaultBackupFont;
@@ -177,7 +168,7 @@ p{
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto 24% auto auto auto;
   padding: 5px;
   color: $MainTextColor;
   text-align: center;
