@@ -1,7 +1,15 @@
-body {
-  background-color: #DED9D9;
-  overflow: scroll;
-  padding: 20px; }
+@media (min-width: 500px) {
+  body {
+    background-color: #DED9D9;
+    overflow: scroll;
+    padding: 20px; } }
+@media (max-width: 499px) {
+  body {
+    background-color: #D0CBCB;
+    overflow: scroll;
+    padding: 20px; } }
+.ConstructionMessage {
+  margin: auto; }
 
 #MainHeading, #SubHeading {
   font-family: Impact, sans-serif;

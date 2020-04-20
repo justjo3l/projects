@@ -2,10 +2,22 @@ $ShadowColor: #BDBBCE;
 $HighlightColor: #635D98;
 $MainTextColor: #928DC0;
 $DefaultBackupFont: sans-serif;
+@media(min-width: 500px){
 body{
   background-color: #DED9D9;
   overflow: scroll;
   padding: 20px;
+}
+}
+@media(max-width: 499px){
+  body{
+    background-color: #D0CBCB;
+    overflow: scroll;
+    padding: 20px;
+  }
+}
+.ConstructionMessage{
+  margin: auto;
 }
 %StandardHeading{
   font-family: Impact, $DefaultBackupFont;
