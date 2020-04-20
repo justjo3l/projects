@@ -1,8 +1,13 @@
-body {
-  background-color: #DED9D9;
-  overflow: scroll;
-  padding: 20px; }
-
+@media (min-width: 500px) {
+  body {
+    background-color: #DED9D9;
+    overflow: scroll;
+    padding: 20px; } }
+@media (max-width: 499px) {
+  body {
+    background-color: #D0BDBD;
+    overflow: scroll;
+    padding: 20px; } }
 #MainHeading, #SubHeading {
   font-family: Impact, sans-serif;
   text-align: center;
@@ -155,7 +160,7 @@ p {
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: auto 24% auto auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 5px;
   color: #928DC0;
   text-align: center;
