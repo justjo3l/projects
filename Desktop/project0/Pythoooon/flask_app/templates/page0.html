@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "styles0.css">
+    <title>EDM In A Nutshell</title>
+  </head>
+  <body>
+    <h1 id="MainHeading" align = "center">EDM In A Nutshell</h1>
+    <h1 id="SubHeading" align = "center">Home</h1>
+    <h1 id = "WelcomeName" align = "center">{{WelcName}}</h1>
+    {% if check %}
+    <h2 align = "center"> Welcome Back!</h2>
+    <ul  align = "center">
+    {% for na in nas %}
+    <li>{{ na }}</li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <h2 align = "center"> Welcome!</h2>
+    {% endif %}
+    <br>
+  </body>
+</html>

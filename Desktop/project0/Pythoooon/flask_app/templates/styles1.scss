@@ -1,0 +1,71 @@
+$ShadowColor: #BDBBCE;
+$HighlightColor: #635D98;
+$MainTextColor: #928DC0;
+$DefaultBackupFont: sans-serif;
+body{
+  background-color: #DED9D9;
+  padding : 20px;
+  overflow: scroll;
+}
+%StandardHeading{
+  font-family: Impact, $DefaultBackupFont;
+  text-align: center;
+  color: $MainTextColor;
+  text-shadow: -1px 0 $ShadowColor, 0 1px $ShadowColor, 1px 0 $ShadowColor, 0 -1px $ShadowColor;
+}
+#MainHeading{
+  @extend %StandardHeading;
+  font-size: 40px;
+}
+#SubHeading{
+  @extend %StandardHeading;
+  font-size: 30px;
+}
+%StandardText{
+  font-size: 20px;
+}
+%StandardImage{
+  height: auto;
+  width: 20%;
+  border: 3px solid $ShadowColor;
+}
+ul{
+  list-style: none;
+}
+p{
+  width: 1000px;
+  @extend %StandardText;
+}
+#ToBold{
+  font-weight: bold;
+  color: $HighlightColor;
+}
+.Question{
+  font-weight: bold;
+  font-family: Lucida, $DefaultBackupFont;
+  color: black;
+}
+.Answer{
+  color: $MainTextColor;
+  font-family: Comic, $DefaultBackupFont;
+}
+.grid{
+  @extend %StandardText;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  color: $MainTextColor;
+  text-align: center;
+}
+a{
+  color: $MainTextColor;
+}
+a:hover{
+    color: $HighlightColor;
+    text-decoration: none;
+  }
+img{
+  @extend %StandardImage;
+  float: right;
+}
